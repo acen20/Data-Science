@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-none">
+  <form action="{% url 'Home' %}" method="post">
+    {% for symptom in symptoms %}
+      <button class="btn btn-primary btn-symptom" type="button" name="button">{{symptom.txt}}</button>
+    {% endfor %}
+  </form>
+</div>
+{% endblock %}

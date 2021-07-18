@@ -1,0 +1,30 @@
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  background-color: rgba(23,23, 0, 0.0);
+  color: white;
+}
+
+.btn-symptom{
+  margin: 5px;
+  min-width: 50px;
+}
+
+body{
+  background: url('https://img.freepik.com/free-vector/dark-wavy-background-gradient_23-2148385755.jpg?size=626&ext=jpg') no-repeat;
+  background-size: cover;
+}
+
+.main-text{
+
+}
+
+form{
+
+}
+body{
+  height: 100vh;
+}

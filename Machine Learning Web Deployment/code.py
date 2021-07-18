@@ -106,5 +106,7 @@ pandas.DataFrame(pca.components_, index = ['PC'+str(i) for i in range(1,10)])
 filename = 'RBF.sav'
 pickle.dump(rbf,open(filename, 'wb'))
 
+def get_scores():
+    model = pickle.load(open(filename, 'rb'))
+    return str(model.get_params())
 # %% [code]
-
